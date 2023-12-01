@@ -1,0 +1,344 @@
+/* CSS code for Final Project */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    border: 5px solid #0d4381;
+}
+
+header,
+nav,
+footer {
+    background-color: #0b618a;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #8d8d8d;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px;
+    background-color: #90b4c5;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0b618a;
+    color: white;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #428b44;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a763a;
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.login-section {
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #3a763a;
+}
+
+.bottom-nav {
+    background-color: #333;
+    color: white;
+    padding: 20px 16px;
+    text-align: center;
+    font-size: small;
+}
+
+.banner {
+    text-align: center;
+    padding: 1em;
+}
+
+.full-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("Images/tyrrell-county-high-resolution-logo.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 1em;
+    height: 250px;
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.login-section {
+    display: flex;
+    align-items: center;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.month {
+    padding: 20px 15px;
+    width: 100%;
+    background: #1a89bc;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev,
+.month .next {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+.weekdays,
+.days {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.weekdays li,
+.days li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.days li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.days li:hover {
+    background-color: rgb(26, 177, 188);
+}
+
+.days li .active {
+    background: #1a89bc;
+    color: white;
+    border-radius: 50%;
+}
+
+.event-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.event-container h2 {
+    color: #333;
+}
+
+.event-container p {
+    color: #555;
+}
+
+.event-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 0.5em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#pay-bill-button {
+    background-color: #428b44;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em auto;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#pay-bill-button:hover {
+    background-color: #357d3f;
+}
+
+#current-date-time {
+    display: block;
+    margin-top: 20px;
+}
+
+.upcoming-events {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.upcoming-events h2 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+}
+
+.Pay-here {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+.Commissioners-Grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+.Commissioners-Logo {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
